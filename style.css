@@ -15,6 +15,7 @@
   padding: 0 5em;
   position: sticky;
   top: 0;
+  z-index: 2;
 }
 .logo-container {
   height: 10vh;

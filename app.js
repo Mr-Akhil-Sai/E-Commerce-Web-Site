@@ -13,10 +13,3 @@ function changeImg(smallImg) {
   largeImg.src = smallImg.src;
 }
 
-let addToCartBtn = document.querySelector(".addToCart");
-
-addToCartBtn.addEventListener("click", () => addToCartFunction());
-
-function addToCartFunction(){
-  console.log("added");
-}
