@@ -139,24 +139,18 @@
 .smallImg1, .smallImg2, .smallImg3, .smallImg4 {
   width: 90%;
 }
-.value input {
-  font-size: 1.6rem;
-  width: 2em;
-  border: 1px solid rgb(223, 91, 43);
-}
-.value a {
-  text-decoration: none;
-  border: none;
-  padding: 0.5em 1.2em;
-  border-radius: 2em 2em;
+.buyNow{
+  padding: .7em 1.5em;
   background-color: rgb(223, 91, 43);
+  border: none;
   color: whitesmoke;
-  font-size: 1em;
-  margin-left: 3em;
+  border-radius: 2em;
 }
-.value a:hover {
-  cursor: initial;
-  background-color: rgb(211, 71, 20);
+.addToCart{
+  border: none;
+  border-radius: 2em;
+  background-color: rgb(223, 91, 43);
+  padding: .7em 1.5em;
   color: whitesmoke;
 }
 .related_products_div {
