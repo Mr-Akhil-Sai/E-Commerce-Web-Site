@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+                            /* THIS IS HEADER */
+
+
+#header{
+    background: rgb(240, 240, 240);
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5em;
+    position: sticky;
+    top: 0; 
+}
+.logo-container{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    height: 50%;
+}
+.list{
+    height: 100%;
+    width: 40vw;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.links{
+    text-decoration: none;
+    color: black;
+}
+.links:hover{
+    color: rgb(223, 91, 43);
+}
+
+.cart{
+    height: 5vh;
+}
+
+
+
+                                /* THIS IS MAIN SECTION */
+
+
+
+.content{
+    padding-left: 5em;
+    background: radial-gradient(#fff, #ffd6d6);
+    padding-top: 5em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.tag_div{
+    padding-top: 6em;
+    padding-right: 1em;
+}
+.tag_line{
+    font-size: 2.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: .5em;
+}
+.tag_para{
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+.explore_button{
+    border: none;
+    padding: .7em 1.5em;
+    border-radius: 2em 2em;
+    background-color:rgb(223, 91, 43);
+    color: whitesmoke;
+    font-size: 1em;
+}
+.explore_button:hover{
+    background-color: rgb(211, 71, 20);
+}
+.socer_img{
+    padding-left: 2em;
+    padding-right: 0;
+    width: 40vw;
+    height: 70vh;
+    margin-bottom: 3em;
+}
+
+                        /* THIS IS CATEGORY SECTION */
+
+
+.category_section{
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+    margin: 3em 7em;
+}
+.category{
+    width: 90%;
+}
+
+
+                        /* THIS IS FEATURED PRODUCTS SECTION */
+
+
+.featured_h1{
+    text-align: center;
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+.featured_products{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 3em 7em;
+}
+.featured_pics{
+    width: 90%;
+}
+.checked{
+    color:rgb(223, 91, 43);
+}
+.unchecked{
+    color:rgb(255, 184, 158);
+}
+.featured_pics_div:hover{
+    transition: all ease-in-out 0.3s ;
+    transform: scale(1.05);
+}
+
+
+                        /* THIS IS LATEST PRODUCTS SECTION */
+
+
+.latest_h1{
+    text-align: center;
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+.latest_products{
+    display: grid;
+    grid-template-columns: repeat( 4, 1fr);
+    margin: 3em 7em;
+}
+.latest_pics{
+    width: 90%;
+}
+.latest_price{
+    margin-bottom: 2em;
+}
+
+
+                        /* THIS IS ADBERTISEMENT SECTION */
+
+
+.advertisement{
+    margin-bottom: 3em;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background: radial-gradient(#fff, #ffd6d6);
+}
+.exclusive_img{
+    margin: 3em 0;
+    width: 30%;
+}
+.description{
+    width: 40%;
+    padding-top: 6em;
+}
+.smart_h1{
+    margin: .5em 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+}
+.buy_now_button{
+    margin: 2em 0;
+    border: none;
+    padding: .7em 1.5em;
+    border-radius: 2em 2em;
+    background-color: rgb(223, 91, 43);
+    color: whitesmoke;
+    font-size: 1em;
+}
+.buy_now_button:hover{
+    background-color: rgb(211, 71, 20);
+}
+
+
+                            /* THIS IS USER REVIEWS SECTION */
+
+
+.user_reviews{
+    margin: 0 7em;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-between;
+}
+.user1, .user2, .user3{
+    box-shadow: 2px 2px 8px 3px rgb(212, 212, 212);
+    margin: 2em 0;
+    text-align: center;
+    padding: 2em 1em;
+    width: 250px;
+    height: 400px;
+}
+.comments{
+    margin: 1em 0;
+}
+.user{
+    border-radius: 50%;
+    width: 30%;
+    margin: 1em 0;
+}
+.comment{
+    color: rgb(223, 91, 43);
+    font-size: 2em;
+}
+
+
+                                /* THIS IS SPONSORS SECTION */
+
+
+.sponsors_logo{
+    margin: 0 7em;
+    text-align: center;
+    margin: 5em 0;
+}
+.company_logo{
+    width: 17%;
+}
+
+
+                                /* THIS IS FOOTER */
+
+
+footer{
+    background-color: black;
+    padding: 5em 7em 0;
+}
+.footer-content{
+    display: flex;
+    align-content: center;
+}
+footer h2{
+    color: whitesmoke;
+    font-size: 1.3rem;
+    margin-bottom: 1.5em;
+}
+footer p{
+    color: gray;
+    font-size: 1rem;
+    
+}
+.download{
+    width: 30%;
+}
+.store_img{
+    margin-top: 1.5em;
+    width: 45%;
+}
+.redstore{
+    width: 40%;
+    text-align: center;
+}
+.redstore_img{
+    width: 60%;
+    margin-bottom: 1.5em;
+}
+.useful_links{
+    width: 15%;
+    text-align: center;
+}
+.follow{
+    width: 15%;
+    text-align: center;
+}
+.copyright{
+    margin-top: 1em;
+    background-color: black;
+    text-align: center;
+}
+.info{
+    color: whitesmoke;
+}
+span{
+    color: coral;
+}
