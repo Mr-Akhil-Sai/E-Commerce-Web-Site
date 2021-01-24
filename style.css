@@ -156,6 +156,7 @@ a{
 /* THIS IS ADBERTISEMENT SECTION */
 
 .advertisement {
+  height: 60vh;
   margin-bottom: 3em;
   display: flex;
   align-content: center;
@@ -168,7 +169,7 @@ a{
 }
 .description {
   width: 40%;
-  padding-top: 6em;
+  padding-top: 3em;
 }
 .smart_h1 {
   margin: 0.5em 0;
@@ -233,7 +234,7 @@ a{
 
 footer {
   background-color: black;
-  padding: 5em 7em 0;
+  padding: 3em 7em 1em;
 }
 .footer-content {
   display: flex;

@@ -70,7 +70,7 @@
 
 footer {
   background-color: black;
-  padding: 5em 5em 0;
+  padding: 3em 5em 1em;
 }
 .footer-content {
   display: flex;
