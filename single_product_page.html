@@ -1,164 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>E-commerce</title>
-    <link rel="stylesheet" href="./products.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./products.css" />
+  </head>
+  <body>
     <header id="header">
-        <div class="logo-container">
-            <img class="logo" src="./assets/images/logo.png" alt="">
-        </div>
-        <nav class="nav_links">
-            <ul class="list">
-                <li><a class="links" href="./index.html">Home</a></li>
-                <li><a class="links" href="./products.html">Products</a></li>
-                <li><a class="links" href="">About</a></li>
-                <li><a class="links" href="">Contact</a></li>
-                <li><a class="links" href="">Account</a></li>
-                <li><a href=""><img class="cart" src="./assets/images/cart.png" alt=""></a></li>
-            </ul>
-        </nav>
+      <div class="logo-container">
+        <a href="./index.html">
+          <img class="logo" src="./assets/images/logo.png" alt="" />
+        </a>
+      </div>
+      <nav class="nav_links">
+        <ul class="list">
+          <li><a class="links" href="./index.html">Home</a></li>
+          <li><a class="links" href="./products.html">Products</a></li>
+          <li><a class="links" href="">About</a></li>
+          <li><a class="links" href="">Contact</a></li>
+          <li><a class="links" href="">Account</a></li>
+          <li>
+            <a href="./cart_page.html"
+              ><img class="cart" src="./assets/images/cart.png" alt=""
+            /></a>
+          </li>
+        </ul>
+      </nav>
     </header>
-    
 
-                                <!--THIS IS MAIN SECTION-->
-
+    <!--THIS IS MAIN SECTION-->
 
     <div class="main">
-        <div class="single_product">
-            <div class="img">
-            <img class="large_img"src="./assets/images/gallery-1.jpg" alt="">
-            <div class="small_img">
-                <img class="small_pic" src="./assets/images/gallery-1.jpg" alt="">
-                <img class="small_pic" src="./assets/images/gallery-2.jpg" alt="">
-                <img class="small_pic" src="./assets/images/gallery-3.jpg" alt="">
-                <img class="small_pic" src="./assets/images/gallery-4.jpg" alt="">
-            </div>
-            </div>
-            <div class="product_information">
-                <h1 class="product_name">Red Printed T-Shirt by PUMA</h1>
-                <h2 class="price">$50.00</h2>
-                <select class="size">
-                    <option>XXL</option>
-                    <option>XL</option>
-                    <option>Large</option>
-                    <option>Medium</option>
-                    <option>Small</option>
-                </select>
-                <div class="value">
-                    <input type="number" value="1">
-                    <a href="">Buy Now</a>
-                    <a href="">Add To Cart</a>
-                </div>
-                <div class="information">
-                    <h3>Product Details</h3>
-                    <p>Give your summer wardrobe a style upgrade with the PUMA 
-                        Men's Active T-shirt. Team it with a pair of your morning
-                        workout or a denims for an evening out with the guys.
-                    </p>
-                </div>
-            </div>
+      <div class="single_product">
+        <div class="largeImgDiv">
+          <img class="largeImg" src="./assets/images/gallery-1.jpg" alt="" />
+          <div class="smallImgDiv">
+            <img class="smallImg1" src="./assets/images/gallery-1.jpg" alt="" />
+            <img class="smallImg2" src="./assets/images/gallery-2.jpg" alt="" />
+            <img class="smallImg3" src="./assets/images/gallery-3.jpg" alt="" />
+            <img class="smallImg4" src="./assets/images/gallery-4.jpg" alt="" />
+          </div>
         </div>
-        
-        
-        <!--THIS IS RELATED PRODUCTS-->
-        
-        
-        <div class="related_products_div">
-            <div class="product">
-                <img class="product_pic" src="./assets/images/product-9.jpg" alt="">
-                <p>Black Sports Watch</p>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star unchecked"></span>
-                <p class="product_price">$135.00</p>
-            </div>
-            <div class="product">
-                <img class="product_pic" src="./assets/images/product-10.jpg" alt="">
-                <p>Black HRX Shoes</p>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star unchecked"></span>
-                <p class="product_price">$50.00</p>
-            </div>
-            <div class="product">
-                <img class="product_pic" src="./assets/images/product-11.jpg" alt="">
-                <p>Gray Nike Shoes</p>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star unchecked"></span>
-                <p class="product_price">$55.00</p>
-            </div>
-            <div class="product">
-                <img class="product_pic" src="./assets/images/product-12.jpg" alt="">
-                <p>HRX Black Trackpants</p>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star unchecked"></span>
-                <p class="product_price">$75.00</p>
-            </div>
+        <div class="productInformationDiv">
+          <h1 class="product_name">Red Printed T-Shirt by PUMA</h1>
+          <h2 class="price">$50.00</h2>
+          <select class="size">
+            <option>XXL</option>
+            <option>XL</option>
+            <option>Large</option>
+            <option>Medium</option>
+            <option>Small</option>
+          </select>
+          <div class="value">
+            <input type="number" value="1" />
+            <a href="">Buy Now</a>
+            <a href="">Add To Cart</a>
+          </div>
+          <div class="information">
+            <h3>Product Details</h3>
+            <p>
+              Give your summer wardrobe a style upgrade with the PUMA Men's
+              Active T-shirt. Team it with a pair of your morning workout or a
+              denims for an evening out with the guys.
+            </p>
+          </div>
         </div>
-    </div>
-        
-                                <!--THIS IS FOOTER-->
+      </div>
 
+      <!--THIS IS RELATED PRODUCTS-->
+
+      <div class="related_products_div">
+        <div class="product">
+          <img class="product_pic" src="./assets/images/product-9.jpg" alt="" />
+          <p>Black Sports Watch</p>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star unchecked"></span>
+          <p class="product_price">$135.00</p>
+        </div>
+        <div class="product">
+          <img
+            class="product_pic"
+            src="./assets/images/product-10.jpg"
+            alt=""
+          />
+          <p>Black HRX Shoes</p>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star unchecked"></span>
+          <p class="product_price">$50.00</p>
+        </div>
+        <div class="product">
+          <img
+            class="product_pic"
+            src="./assets/images/product-11.jpg"
+            alt=""
+          />
+          <p>Gray Nike Shoes</p>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star unchecked"></span>
+          <p class="product_price">$55.00</p>
+        </div>
+        <div class="product">
+          <img
+            class="product_pic"
+            src="./assets/images/product-12.jpg"
+            alt=""
+          />
+          <p>HRX Black Trackpants</p>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star unchecked"></span>
+          <p class="product_price">$75.00</p>
+        </div>
+      </div>
+    </div>
+
+    <!--THIS IS FOOTER-->
 
     <footer>
-        <div class="footer-content">
-            <div class="download">
-                <h2>Download Our App</h2>
-                <p>Download App for Android and ios mobile phone</p>
-                <img class="store_img" src="./assets/images/play-store.png" alt="">
-                <img class="store_img" src="./assets/images/app-store.png" alt="">
-            </div>
-            <div class="redstore">
-                <img class="redstore_img" src="./assets/images/logo-white.png" alt="">
-                <p>Our Purpose is Sustainably Make the Pleasure and
-                    Benfits of Sports Accessible to the Many
-                </p>
-            </div>
-            <div class="useful_links">
-                <h2>Useful Links</h2>
-                <p>Coupos</p>
-                <p>Blog Post</p>
-                <p>Return Policy</p>
-                <p>Join Affiliate</p>
-            </div>
-            <div class="follow">
-                <h2>Follow Us</h2>
-                <p>Facebook</p>
-                <p>Twiter</p>
-                <p>Instagram</p>
-                <p>Youtube</p>
-            </div>
+      <div class="footer-content">
+        <div class="download">
+          <h2>Download Our App</h2>
+          <p>Download App for Android and ios mobile phone</p>
+          <img class="store_img" src="./assets/images/play-store.png" alt="" />
+          <img class="store_img" src="./assets/images/app-store.png" alt="" />
         </div>
-        <div class="copyright">
-            <p class="info">Copyright 2020 - <span>V. Akhil Sai Prasad</span></p>
+        <div class="redstore">
+          <img
+            class="redstore_img"
+            src="./assets/images/logo-white.png"
+            alt=""
+          />
+          <p>
+            Our Purpose is Sustainably Make the Pleasure and Benfits of Sports
+            Accessible to the Many
+          </p>
         </div>
+        <div class="useful_links">
+          <h2>Useful Links</h2>
+          <p>Coupos</p>
+          <p>Blog Post</p>
+          <p>Return Policy</p>
+          <p>Join Affiliate</p>
+        </div>
+        <div class="follow">
+          <h2>Follow Us</h2>
+          <p>Facebook</p>
+          <p>Twiter</p>
+          <p>Instagram</p>
+          <p>Youtube</p>
+        </div>
+      </div>
+      <div class="copyright">
+        <p class="info">Copyright 2020 - <span>V. Akhil Sai Prasad</span></p>
+      </div>
     </footer>
-    <script>
-        var Large_Img = document.getElementsByClassName("large_img")
-        var Small_Img = document.getElementsByClassName("small_pic")
-
-            Small_Img[0].onclick = function()
-            {
-                Large_Img.src = Small_Img[0].src;
-            }
-            Small_Img[1].onclick = function()
-            {
-                Large_Img.src = Small_Img[1].src;
-            }
-    </script>
-</body>
+    <script src="./app.js"></script>
+  </body>
 </html>
