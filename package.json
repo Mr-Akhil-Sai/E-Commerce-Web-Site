@@ -1,0 +1,26 @@
+{
+  "name": "E-commerce-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "products.js",
+  "scripts": {
+    "start": "nodemon start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mr-Akhil-Sai/E-Commerce-Wrb-Site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mr-Akhil-Sai/E-Commerce-Wrb-Site/issues"
+  },
+  "homepage": "https://github.com/Mr-Akhil-Sai/E-Commerce-Wrb-Site#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
